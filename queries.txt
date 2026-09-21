@@ -1,0 +1,54 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+6 ?- consult('C:/Users/wesam/Downloads/college/Artificial Intelligence Princi-FS02/Wesam.pl').
+true.
+
+7 ?- male(omar).
+true.
+
+8 ?- father(omar, yusuf).
+true.
+
+9 ?- father(omar, mariam).
+true.
+
+10 ?- father(layla, yusuf).
+false.
+
+11 ?- mother(layla, yusuf).
+true.
+
+12 ?- mother(layla, mariam).
+true.
+
+13 ?- mother(omar, yusuf).
+false.
+
+14 ?- sister(mariam, yusuf).
+true .
+
+15 ?- sister(hana, adam).
+true.
+
+16 ?- sister(hana, adam).
+true.
+
+16 ?- sister(hana, adam).
+true.
+
+16 ?- brother(yusuf, mariam).
+true .
+
+17 ?- brother(adam, hana).
+true.
+
+18 ?- brother(sami, noor).
+true.
+
+19 ?- brother(hana, adam).
+false.
